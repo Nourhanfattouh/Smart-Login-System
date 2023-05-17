@@ -1,0 +1,23 @@
+body {
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #24353f;
+    height:100vh;
+}
+p a:hover
+{
+    text-decoration: underline !important;
+} 
+.form-container
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    background-color: #24353f;
+}
+.mynavinfo
+{
+    background-color: #24353f !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}

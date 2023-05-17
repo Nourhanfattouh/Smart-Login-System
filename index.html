@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Encode+Sans+Semi+Condensed&family=Poppins:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="w-75 p-5 m-auto text-center form-container  ">
+            <h2 class="text-info mb-5">Smart Login System</h2>
+
+            <div class="mb-4 ">
+
+                <input type="text" class="form-control bg-transparent text-white" id="loginEmail"
+                    placeholder="Enter email">
+            </div>
+            <div class=" mb-4">
+                <input type="password" class="form-control bg-transparent text-white mb-5" id="loginPassword"
+                    placeholder="Enter password">
+            </div>
+
+            <p class="text-danger d-none" id="fillMsg">fill the inputs first</p>
+            <p class="text-danger d-none" id="wrongMsg">your email or password is incorrect</p>
+            <a class="btn btn-outline-info w-100 mb-3 text-decoration-none" id="loginBtn" onclick="login()">Login</a>
+            <p class="text-white">don't have an accoount?
+                <a href="signUp.html" class="text-white text-decoration-none">Sign Up</a>
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

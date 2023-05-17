@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Encode+Sans+Semi+Condensed&family=Poppins:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+</head>
+
+
+<body onload="displayWelcomeUser()">
+
+
+
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mynavinfo">
+        <div class="container p-3">
+            <a class="navbar-brand text-white" href="#">Navbar</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link btn btn-outline-success text-white p-2" href="#"
+                            onclick="logout()">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5 text-center d-flex align-items-center justify-content-center">
+        <div class=" m-auto w-75 p-5 mt-5">
+            <h1 id="username" class="text-info py-5"></h1>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">SMART LOGIN</a>
+
+            <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item ">
+                        <a class="nav-link  text-white" onclick="logout()"
+                            href="index.html">Logout</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5 text-center h-100 d-flex align-items-center">
+        <div class="group m-auto w-75 p-5">
+            <h1 id="username" class="text-info"></h1>
+        </div>
+    </div> -->
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

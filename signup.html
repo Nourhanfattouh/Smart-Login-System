@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Encode+Sans+Semi+Condensed&family=Poppins:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+</head>
+
+<body>
+
+    <div class="container py-5 mine">
+        <div class="w-75  text-center container m-auto form-container my-5 p-3 ">
+            <h2 class="mb-5 pt-5 text-white">smart Login System</h2>
+            <div class="mb-4">
+                <input type="text" class="form-control w-100 m-auto bg-transparent text-white"
+                    placeholder="Enter your name" id="usernameInput">
+                <p id="nameAlert" class="d-none text-danger">include name between 4:10 words , Lname is option</p>
+            </div>
+            <div class="mb-4">
+                <input type="email" class="form-control w-100 bg-transparent text-white" id="userEmailInput"
+                    placeholder="Enter your Email">
+                <p id="emailAlert" class="d-none text-danger">name@example.com</p>
+            </div>
+            <div class="mb-5">
+                <input type="password" class="form-control bg-transparent text-white" id="userPasswordInput"
+                    placeholder="Enter your password">
+                <p id="passwordAlert" class="d-none text-danger ">you must strenthen your password</p>
+
+            </div>
+            <p class="text-success d-none" id="SuccessMessage">Success</p>
+            <p class="text-danger d-none " id="accountExistMsg">this account is exist </p>
+            <p class="text-danger d-none " id="signUp-failed">signUp failed ! Try again</p>
+            <a id="signupButton" onclick="signUp()"
+                class="btn text-decoration-none w-100 text btn-outline-info mt-5">Sign
+                UP</a>
+            <p class="text-white d-block mt-4 mb-5">you have an accoount?
+                <a href="index.html" class="text-white text-decoration-none"> Sign In </a>
+            </p>
+            <a href="index.html" class="d-none btn btn-outline-success text-white w-25 m-auto" id="signin">signin</a>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
